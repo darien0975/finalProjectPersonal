@@ -1,0 +1,197 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "華康龍門石碑";
+  font-weight: 900;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(../pictures/bg4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.header nav {
+  background-color: rgb(255, 141, 59);
+}
+
+.nav-item:hover {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0rem 0.5rem;
+}
+
+.home-main h1,
+.home-main h2,
+.home-main p {
+  color: rgb(90, 44, 0);
+}
+.home-main .home-container .home-container-text {
+  padding-left: 8rem;
+}
+.home-main .two-box .player {
+  background: url(../pictures/table2.png);
+  background-size: cover;
+  background-position: center;
+}
+.home-main .two-box .gamemaster {
+  background: url(../pictures/book.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .home-main .home-container .home-container-text {
+    padding-left: 1rem;
+  }
+}
+.about-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-main .introduce .introduce-box .introduce-box-img img {
+  width: 100%;
+}
+.about-main .video .video-box iframe {
+  width: 100%;
+  height: 40vw;
+}
+.about-main .sop {
+  background: url(../pictures/night2.png);
+  background-size: cover;
+  background-position: center;
+}
+.about-main .feature {
+  background: url(../pictures/bg9.png);
+  background-size: cover;
+  background-position: center;
+}
+.about-main .feature img {
+  width: 100%;
+}
+.about-main .feature h1,
+.about-main .feature h2,
+.about-main .feature p {
+  color: white;
+}
+.about-main .feature .feature-box {
+  align-items: center;
+  border: 5px dashed rgb(107, 77, 0);
+}
+.about-main .feature .feature-box .feature-box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直居中 */
+  align-items: center; /* 水平居中 */
+  padding: 20px;
+}
+.about-main .feature .feature-box .feature-box-text h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .about-main .feature .feature-box:nth-of-type(2),
+  .about-main .feature .feature-box:nth-of-type(4) {
+    flex-direction: column-reverse;
+  }
+}
+.join-container {
+  padding: 3rem;
+}
+.join-container #full {
+  color: red;
+}
+.join-container span {
+  margin: 0.5rem 0rem;
+}
+.join-container .join-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.join-container .join-box .join-card {
+  width: 21rem;
+  margin: 1rem;
+}
+
+.larpevent-container {
+  padding: 3rem;
+}
+.larpevent-container #full {
+  color: red;
+}
+.larpevent-container p,
+.larpevent-container span {
+  margin: 0.5rem 0rem;
+}
+.larpevent-container .larpevent-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.larpevent-container .larpevent-box .larpevent-card {
+  width: 21rem;
+  margin: 1rem;
+}
+
+.login-container {
+  padding: 3rem;
+}
+.login-container h1,
+.login-container h5 {
+  text-align: center;
+}
+.login-container button {
+  width: 100%;
+}
+
+.postlarpevent-container {
+  padding: 3rem;
+}
+.postlarpevent-container textarea {
+  height: 200px;
+}
+
+.profile-container {
+  padding: 3rem;
+}
+
+.register-container {
+  padding: 3rem;
+}
+.register-container h1,
+.register-container h5 {
+  text-align: center;
+}
+.register-container button {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

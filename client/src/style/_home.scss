@@ -1,0 +1,39 @@
+.home-main {
+  h1,
+  h2,
+  p {
+    color: rgb(90, 44, 0);
+  }
+  .home-container {
+    .home-container-text {
+      padding-left: 8rem;
+    }
+  }
+  .two-box {
+    .player {
+      background: url(../pictures/table2.png);
+      background-size: cover;
+      background-position: center;
+    }
+    .gamemaster {
+      background: url(../pictures/book.png);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .home-main {
+    .home-container {
+      .home-container-text {
+        padding-left: 1rem;
+      }
+    }
+  }
+}

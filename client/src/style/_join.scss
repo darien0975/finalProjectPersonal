@@ -1,0 +1,17 @@
+.join-container {
+  #full {
+    color: red;
+  }
+  padding: 3rem;
+  span {
+    margin: 0.5rem 0rem;
+  }
+  .join-box {
+    display: flex;
+    flex-wrap: wrap;
+    .join-card {
+      width: 21rem;
+      margin: 1rem;
+    }
+  }
+}

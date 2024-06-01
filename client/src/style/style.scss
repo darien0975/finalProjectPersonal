@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "華康龍門石碑";
+  font-weight: 900;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(../pictures/bg4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@import "./nav";
+@import "./home";
+@import "./about";
+@import "./join";
+@import "./larpevent";
+@import "./login";
+@import "./postlarpevent";
+@import "./profile";
+@import "./register";
