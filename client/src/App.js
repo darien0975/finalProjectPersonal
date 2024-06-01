@@ -16,7 +16,7 @@ function App() {
   let [currentUser, setCurrentUser] = useState(AuthService.getCurrentUser());
 
   return (
-    <BrowserRouter basename="/finalProject">
+    <BrowserRouter basename="/finalProjectPersonal">
       <Routes>
         <Route
           path="/"
