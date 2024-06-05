@@ -6,11 +6,12 @@
   z-index: 100;
   nav {
     background-color: rgb(255, 141, 59);
+    .navbar-nav {
+      .nav-item:hover {
+        background-color: white;
+        border-radius: 1rem;
+        padding: 0rem 0.5rem;
+      }
+    }
   }
-}
-
-.nav-item:hover {
-  background-color: white;
-  border-radius: 1rem;
-  padding: 0rem 0.5rem;
 }

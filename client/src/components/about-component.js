@@ -13,7 +13,7 @@ const AboutComponent = () => {
         <div className="row align-items-md-stretch introduce-box">
           <div className="col-md-7 fs-3">
             <div className="h-100 p-4 ">
-              <h1>什麼是劇本殺?</h1>
+              <h1>什麼是劇本殺??</h1>
               <p>
                 “劇本殺”，一詞起源於西方宴會實況角色扮演“謀殺之謎”，是玩家到實景場館，體驗推理性質的項目。劇本殺的規則是，玩家先選擇人物，閱讀人物對應劇本，蒐集線索後找出活動裏隱藏的真兇。
                 劇本殺不僅僅是一個遊戲，更是一個集知識屬性、心理博弈屬性、強社交屬性於一體的娛樂項目。
